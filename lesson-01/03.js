@@ -7,7 +7,7 @@
 // your code
 let sum = 0;
 let number = 1;
-while (number < 20) {
+while (number <= 20) {
   if (number % 2 === 0) {
     sum = sum + number;
     number++
