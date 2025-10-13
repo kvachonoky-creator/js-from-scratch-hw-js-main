@@ -9,7 +9,7 @@ const game = {
         } else if (resource === "lumber") {
             return game.resources.lumber += amount
         } else {
-            return "Invalid resource"
+            console.log("Invalid resource")
         }
     }
 }
