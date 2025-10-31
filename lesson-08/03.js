@@ -10,5 +10,5 @@
 */
 
 function truncate(str, maxLength) {
-  // your code
+  return str.length <= maxLength ? str : `${str.slice(0, maxLength)}...`
 }
